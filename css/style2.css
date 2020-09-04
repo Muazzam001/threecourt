@@ -1,0 +1,31 @@
+#editor {width:540px;position:fixed;z-index:9999;left:0;padding:10px;background:#fff;color:#000;font-size:14px;border:1px solid #000;border-radius:7px;box-shadow:5px 5px 3px #666;font-family:Arial;line-height:18px;}
+#editor textarea {resize:none;margin-bottom:5px;padding:3px;}
+#editor textarea[name=etext1] {width:490px;height:120px;border:1px solid blue;}
+#editor textarea[name=etext2] {background:#fff;width:490px;height:120px;border:1px solid green}
+#editor #oclose {position:absolute;top:-15px;right:-20px;cursor:pointer;}
+#editor #eUSERNAME,#editor #ePASSWORD {background-repeat:no-repeat;}
+#editor .ewarning, #editor .red {color:red;}
+#editor .green {color:green}
+#ce-highlight {box-sizing:content-box;position:fixed;top:50%;right:-40px;margin-top:-50px;border-radius:50px;background:#C3C3C3;color:#fff;font-size:30px;font-family:Arial;width:80px;height:50px;line-height:50px;padding:25px 10px;font-weight:bold;text-shadow:1px 1px 1px #000;box-shadow:0px 0px 5px #000;cursor:pointer;user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none;-ms-user-select: none;}
+#ce-highlight.sel {background:#2F9C5D;}
+ce.sel {border:1px dotted #159515;display:block;border-top:10px solid #159515;}
+#ce-msg {position:fixed;font-size:13px;line-height:20px;width:400px;top:50%;margin-top:-50px;right:75px;}
+#ce-msg #arrow {right:-8px;position:absolute;top:42px;width:8px;height:16px;background:url(img/bubble-arrow.png) no-repeat;}
+#ce-msg .body span {color:red;font-size:18px;text-transform:uppercase;text-align:center;}
+#ce-msg .body {background:url(img/bubble-content.png) repeat;padding:15px;}
+#ce-msg .mbottom {background:url(img/bubble-btm.png) repeat-x;height:10px;}
+
+
+
+/*fx*/
+
+/* Stylesheet for FX library version 1.1+ */
+.fx-table-fix {table-layout:fixed;width:100%;}
+.fx-hidden {visibility:hidden;}
+.fx-relative {position:relative;}
+.fx-index {z-index:0;}
+.fx-select {overflow:hidden;display:inline-block;}
+.fx-select select {border:0;background:none;outline:none;}
+.fx-left-arrow,.fx-right-arrow {cursor:pointer;}
+
+
